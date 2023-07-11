@@ -11,11 +11,11 @@
     <title>Medical Parana</title>
 </head>
 
-<body>
+<body class="bg-body-secondary">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-secondary">
-            <div class="container-fluid">
-                <div class="col col-sm-4 col-md-4 col-lg-4  d-flex align-items-center justify-content-center">
+            <div class="container text-center">
+                <div class="col col-sm-4 col-md-4 col-lg-4  d-flex align-items-center justify-content">
                     <img class="w-500" src="#Logo" alt="Logo_Medical">
                 </div>
                 <button class="navbar-toggler col-md-1" type="button" data-bs-toggle="collapse"
@@ -24,99 +24,91 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul
-                        class="navbar-nav items col-md-12 col-lg-12 d-flex justify-content-center me-auto mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav items col-md-12 col-lg-12 d-flex justify-content-end me-auto mb-2 mb-lg-0 ">
                         <li class="contiene-a nav-item">
-                            <a class="nav-link active boton" aria-current="page" href="#quienesSomos">Quienes Somos
-                                |</a>
-                        </li>
-                        <li class="contiene-a  nav-item">
-                            <a class="nav-link active boton" aria-current="page" href="#servicios">Servicios |</a>
-                        </li>
-                        <li class="contiene-a  nav-item">
-                            <a class="nav-link active boton" aria-current="page" href="#planes">Planes |</a>
-                        </li>
-                        <li class="contiene-a  nav-item">
-                            <a class="nav-link active boton" aria-current="page" href="#contacto">Contacto</a>
+                            <a class="nav-link active boton" aria-current="page" href="/empresas.html"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-person-square" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z" />
+                                </svg></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main  class="bg-body-secondary">
+    <br>
+    <main>
         <section>
-            <div id="carouselMedical" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/img/foto1.jpg" class="d-block w-100" alt="foto1">
+            <div class="container text-center w-75">
+                <div id="carouselMedical" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/foto1.jpg" class="d-block w-100" alt="foto1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/foto2.jpg" class="d-block w-100" alt="foto2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/foto3.jpg" class="d-block w-100" alt="foto3">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/img/foto2.jpg" class="d-block w-100" alt="foto2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/img/foto3.jpg" class="d-block w-100" alt="foto3">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMedical"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMedical"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class=" container text-center">
+            <div class="d-flex justify-content-center" id="planes1">
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75 " alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span aria-hidden="true"></span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
-                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                    </svg>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span aria-hidden="true"></span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
-                        class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                    </svg>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
+                    </div>
+                </div>
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section>
-            <div class="quienesSomos" id="quienesSomos">
-
-            </div>
-        </section>
-        <section>
-            <br>
-            <div class="d-flex justify-content-center mt-2 ">
-                <form>
-                    <div class="mb-3">
-                        <label for="inputNames" class="form-label">Nombre y Apellido</label>
-                        <input type="text" class="form-control" id="inputNames" placeholder="Nombre y Apellido *">
+            <div class="d-flex justify-content-center " id="planes2">
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="inputDni" class="form-label">DNI</label>
-                        <input type="number" class="form-control" id="inputAddress" placeholder="DNI, LC, LR *">
+                </div>
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="inputTelefono" class="form-label">Telefono</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="343.. *">
+                </div>
+                <div class="card mx-5 my-3 border border-black" style="width: 18rem;">
+                    <img src="/assets/img/cart.png" class="card-img-top w-75" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> SERVICIO PARA PERSONAS</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="inputEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email *">
-                    </div>
-                    <div class="mb-3">
-                        <label for="inputCity" class="form-label">Localidad</label>
-                        <input type="text" class="form-control" id="inputCity" placeholder="Localidad * ">
-                    </div>
-                    <div class="mb-3">
-                        <label for="messagetext" class="form-label"></label>
-                        <textarea class="form-control" id="messagetext" rows="3" placeholder="Mensaje..."></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-primary">Contactar</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </section>
     </main>
